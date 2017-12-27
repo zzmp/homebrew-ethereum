@@ -126,7 +126,7 @@ Option                 | desc.
 
 **Note:** `--with-evmjit` requires LLVM to be installed with `brew install llvm --HEAD --with-clang`
 
-##Troubleshooting
+## Troubleshooting
 
 * Use `--verbose` to get more info while installing.
 * Make sure to update XCode and the command line tools.
@@ -138,7 +138,7 @@ Option                 | desc.
 * Take a walk
 
 
-##Patching
+## Patching
 
 First `cd /Library/Caches/Homebrew/ethereum--git/` and make your changes. Then `git diff > shiny.patch`, copy/paste the content of your patch under `__END__` of `ethereum.rb` and replace the `def patches` block with:
 
